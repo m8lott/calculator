@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+				content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./calc.css">
+  </head>
+  <body>
+<div class="container">
+  <div class="wrapper">
+    <div class="display">
+
+    </div>
+    <div class="buttons">
+      <div class="buttons__nums">
+        <div class="buttons__nums-row">
+          <button class = 'buttons__nums-button but'>7</button>
+          <button class = 'buttons__nums-button but'>8</button>
+          <button class = 'buttons__nums-button but'>9</button>
+        </div>
+        <div class="buttons__nums-row">
+          <button class = 'buttons__nums-button but'>4</button>
+          <button class = 'buttons__nums-button but'>5</button>
+          <button class = 'buttons__nums-button but'>6</button>
+        </div>
+        <div class="buttons__nums-row">
+          <button class = 'buttons__nums-button but'>1</button>
+          <button class = 'buttons__nums-button but'>2</button>
+          <button class = 'buttons__nums-button but'>3</button>
+        </div>
+        <div class="buttons__nums-row">
+          <button id = 'clean' class = 'buttons__nums-button but'>C</button>
+          <button class = 'buttons__nums-button but'>0</button>
+          <button class = 'buttons__nums-button but'>.</button>
+        </div>
+      </div>
+      
+      <div class="buttons__signs">
+        <div class="buttons__signs-row">
+          <button class = 'buttons__signs-button but'>(</button>
+          <button class = 'buttons__signs-button but'>*</button>
+          <button class = 'buttons__signs-button but'>-</button>
+          <button class = 'buttons__signs-button but'>+</button>
+        </div>
+        <div class="buttons__signs-row">
+          <button class = 'buttons__signs-button but'>)</button>
+          <button class = 'buttons__signs-button but'>%</button>
+          <button class = 'buttons__signs-button but'>/</button>
+          <button id = 'equal' class = 'buttons__signs-button but'>=</button>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+</div>
+<div class = 'cache'>
+  <h1>Results</h1>
+    </div>
+<script src="./calc.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js"></script>
+  </body>
+  </html>
